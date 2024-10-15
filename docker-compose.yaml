@@ -1,5 +1,7 @@
 services:
   app:
+    container_name: chatty-birds-client-react
+    image: chatty-birds-react:latest
     build:
       context: .
       dockerfile: Dockerfile
